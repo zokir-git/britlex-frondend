@@ -20,6 +20,7 @@ a {
   box-sizing: border-box;
 }
 
+
 .web__footer {
   display: flex;
   justify-content: space-between;
@@ -104,4 +105,131 @@ a {
     width: 100%;
     margin: 0 auto;
   }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  color: #736f6f;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content__paragrf,
+.content__paragrf-two,
+.content__paragrf-tree {
+  display: flex;
+  gap: 10px;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  background: #EEEEEE;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.content__paragrf h3,
+.content__paragrf-two h3,
+.content__paragrf-tree h3 {
+  margin-left: 8px;
+}
+.content__paragrf h5,
+.content__paragrf-two h5,
+.content__paragrf-tree h5 {
+  color: #736f6f;
+}
+
+.content {
+  width: 33%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
+.content__text {
+  margin-top: 54px;}
+
+.container {
+  margin: 35px auto 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__centre ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.header__centre ul a {
+  padding: 10px;
+  color: #263238;
+  font-size: 20px;
+}
+.header__right button {
+  border: 2px solid #000000;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.header__right button a {
+  font-size: 18px;
+  padding: 14px 27px;
+  display: inline-block;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar__content-left h1 {
+  font-size: 64px;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+.sidebar__content-left p {
+  font-size: 22px;
+  line-height: 36px;
+  color: #8F95A5;
+  margin-bottom: 25px;
+}
+.sidebar__content-left button {
+  border: none;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.sidebar__content-left button a {
+  font-size: 18px;
+  padding: 30px 100px;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 35px;
+
 }/*# sourceMappingURL=main.css.map */
