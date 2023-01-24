@@ -1,6 +1,7 @@
 @import "./base";
 @import "./mixins";
-<<<<<<< HEAD
+@import "./header";
+@import "./footer";
 
 
 h1 {
@@ -70,6 +71,4 @@ p {
 .content__text {
     margin-top: 54px;
 }
-=======
-@import "./header"
->>>>>>> 68b56272385883518241aff231bfcd1bc63075c6
+

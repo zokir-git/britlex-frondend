@@ -20,7 +20,92 @@ a {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+
+.web__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  border-top: 1px solid #c4c4c4;
+}
+.web__footer .footerList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.web__footer .footerList .footer__item a {
+  display: inline-block;
+  padding: 0.3rem 0.1rem;
+  margin-right: 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #8f95a5;
+}
+.web__footer .footerList .footer__item #cookie {
+  margin: 0;
+}
+.web__footer .footerList li:not(:first-child) {
+  list-style: disc;
+  color: #8f95a5;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .container {
+    max-width: 290px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .web__footer {
+    display: block;
+    text-align: center;
+    padding: 1.6rem 0;
+  }
+  .web__footer .footer__logo-box img {
+    width: 71px;
+    height: 36px;
+  }
+  .web__footer .footerList .footer__item a {
+    font-size: 0.7rem !important;
+    margin: 0 !important;
+  }
+  .web__footer .footerList li {
+    list-style: none !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .web__footer {
+    padding: 2.2rem 0;
+  }
+  .web__footer .footer__logo-box img {
+    width: 89px;
+    height: 45px;
+  }
+  .web__footer .footerList .footer__item a {
+    font-size: 0.7rem !important;
+  }
+  .web__footer .footerList li {
+    list-style: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
 h1 {
   font-size: 40px;
   text-align: center;
@@ -83,8 +168,8 @@ p {
   }
 }
 .content__text {
-  margin-top: 54px;
-=======
+  margin-top: 54px;}
+
 .container {
   margin: 35px auto 0 auto;
 }
@@ -146,5 +231,5 @@ p {
   display: inline-block;
   color: #FFFFFF;
   font-size: 35px;
->>>>>>> 68b56272385883518241aff231bfcd1bc63075c6
+
 }/*# sourceMappingURL=main.css.map */
