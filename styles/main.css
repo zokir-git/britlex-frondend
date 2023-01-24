@@ -18,4 +18,69 @@ a {
   margin: 0 auto;
   padding: 0 1rem;
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+  color: #736f6f;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content__paragrf,
+.content__paragrf-two,
+.content__paragrf-tree {
+  display: flex;
+  gap: 10px;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  background: #EEEEEE;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.content__paragrf h3,
+.content__paragrf-two h3,
+.content__paragrf-tree h3 {
+  margin-left: 8px;
+}
+.content__paragrf h5,
+.content__paragrf-two h5,
+.content__paragrf-tree h5 {
+  color: #736f6f;
+}
+
+.content {
+  width: 33%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+}
+.content__text {
+  margin-top: 54px;
 }/*# sourceMappingURL=main.css.map */
