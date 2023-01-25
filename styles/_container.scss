@@ -1,0 +1,59 @@
+// EXTRA SMALL
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .container {
+    max-width: 290px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+// SECOND CONTAINER   "SMALL CONTAINER"
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+// THIRD CONTAINER   "MEDIUM CONTAINER"
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+// FOURTH CONTAINER   "LARGE CONTAINER"
+
+@media (min-width: 992px) and (max-width: 1199.8px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+//   EXTRA LARGE CONTAINER
+
+@media (min-width: 1200px) and (max-width: 1399.8px) {
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+// XX-l
+
+@media (min-width: 1400px) and (max-width: 1800px) {
+  .container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
