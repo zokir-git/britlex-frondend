@@ -31,6 +31,10 @@
     }
   }
 }
+
+
+
+
 @media (min-width: 320px) and (max-width: 575px) {
   .container {
     max-width: 290px;
@@ -39,7 +43,7 @@
   }
 
   .web__footer {
-    display: block;
+    display: block !important;
     text-align: center;
     padding: 1.6rem 0;
     .footer__logo-box {
