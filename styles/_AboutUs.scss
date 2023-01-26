@@ -7,6 +7,7 @@
     font-size: 48px;
     line-height: 80px;
     color: #000000;
+    text-align: start;
   }
 }
 .about{
@@ -20,10 +21,11 @@
       line-height: 30px;
       color: $sesondary-color;
     }
+    
 }
 .about__wrapper {
   display: flex;
-//   align-items: center;
+  align-items: center;
   justify-content: space-between;
   .about__wrap {
     text-align: center;
@@ -45,9 +47,12 @@
     color: $sesondary-color;
   }
 }
+.about__img {
+  margin-left: 100px;
+}
 @media only screen and (max-width: 330px) {
     .container {
-        max-width: 320px !important;
+        max-width: 290px !important;
         width: 100% !important;
         margin: 0 auto !important;
         box-sizing: border-box;
@@ -63,6 +68,7 @@
         &__img {
             width: 283px;
             height: 283px;
+            margin-left: 0;
         }
     }
 
@@ -81,7 +87,7 @@
 }
 @media only screen and (max-width: 576px) {
     .container {
-        max-width: 575px !important;
+        max-width: 540px !important;
         width: 100% !important;
         margin: 0 auto !important;
         box-sizing: border-box;
@@ -100,6 +106,7 @@
       &__img {
         width: 352px;
         height: 352px;
+        margin-left: 0;
     }
   }
   .about__subtitle,.about__wrap-name{
@@ -116,7 +123,7 @@
 }
 @media only screen and (max-width: 768px) {
     .container {
-        max-width: 767px !important;
+        max-width: 720px !important;
         width: 100% !important;
         margin: 0 auto !important;
         box-sizing: border-box;
@@ -128,8 +135,9 @@
         line-height: 80px !important;
       }
       .about__img {
-        width: 295px;
-        height: 295px;
+        width: 295px  ;
+        height: 295px ;
+        margin-left: 50px;
     }
   
   .about__subtitle,.about__wrap-name{
@@ -146,7 +154,7 @@
 @media only screen and (max-width: 992px) {
 
     .container {
-        max-width: 980px !important;
+        max-width: 960px !important;
         width: 100% !important;
         margin: 0 auto !important;
         box-sizing: border-box;
@@ -158,8 +166,8 @@
         line-height: 80px !important;
       }
       .about__img {
-        width: 336px !important;
-        height: 336px !important;
+        width: 336px ;
+        height: 336px ;
     }
   
   .about__subtitle,.about__wrap-name{
