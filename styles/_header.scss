@@ -36,6 +36,13 @@
                 font-size: 18px;
                 padding: 14px 27px;
                 display: inline-block;
+                transition: 0.3s;
+            }
+
+            a:hover{
+                background-color: #000000;
+                color: #FFFFFF;
+                transition: 0.3s;
             }
         }
     }
@@ -47,6 +54,12 @@
     align-items: center;
 
     &__content-left{
+        img{
+            position: relative;
+            left: 390px;
+            top: 200px;
+        }
+
         h1{
             font-size: 64px;
             line-height: 80px;
@@ -57,7 +70,7 @@
             font-size: 22px;
             line-height: 36px;
             color: #8F95A5;
-            margin-bottom: 25px;
+            margin-bottom: 40px;
         }
 
         button{
@@ -65,6 +78,7 @@
             background-color: #000000;
             cursor: pointer;
             border-radius: 15px;
+            border: 2px solid transparent;
 
             a{
                 font-size: 18px;
@@ -72,6 +86,15 @@
                 display: inline-block;
                 color: #FFFFFF;
                 font-size: 35px;
+                border-radius: 15px;
+                border: 2px solid transparent;
+            }
+
+            a:hover{
+                background-color: #FFFFFF;
+                border: 2px solid #000000;
+                border-radius: 15px;
+                color: #000000;
             }
         }
     }

@@ -51,12 +51,23 @@ a {
   font-size: 18px;
   padding: 14px 27px;
   display: inline-block;
+  transition: 0.3s;
+}
+.header__right button a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: 0.3s;
 }
 
 .sidebar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.sidebar__content-left img {
+  position: relative;
+  left: 390px;
+  top: 200px;
 }
 .sidebar__content-left h1 {
   font-size: 64px;
@@ -67,13 +78,14 @@ a {
   font-size: 22px;
   line-height: 36px;
   color: #8F95A5;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 .sidebar__content-left button {
   border: none;
   background-color: #000000;
   cursor: pointer;
   border-radius: 15px;
+  border: 2px solid transparent;
 }
 .sidebar__content-left button a {
   font-size: 18px;
@@ -81,4 +93,12 @@ a {
   display: inline-block;
   color: #FFFFFF;
   font-size: 35px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+.sidebar__content-left button a:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
