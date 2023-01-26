@@ -254,9 +254,6 @@ a {
   display: inline-block;
   color: #FFFFFF;
   font-size: 35px;
-
-
-
   border-radius: 15px;
   transition: 0.3s;
   border: 2px solid transparent;
@@ -269,8 +266,61 @@ a {
   transition: 0.3s;
 }
 
+.pricing_titel {
+  font-size: 40px;
+  text-align: center;
+}
 
+.pricing__paragraph {
+  margin-top: 20px;
+  color: #736f6f;
+}
 
+.pricing__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  position: relative;
+}
+
+.content__paragrf,
+.content__paragrf-two,
+.content__paragrf-tree {
+  display: flex;
+  gap: 10px;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  background: #eeeeee;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.content__paragrf h3,
+.content__paragrf-two h3,
+.content__paragrf-tree h3 {
+  margin-left: 8px;
+}
+.content__paragrf h5,
+.content__paragrf-two h5,
+.content__paragrf-tree h5 {
+  color: #736f6f;
+}
+
+@media only screen and (max-width: 1024px) {
+  .pricing__box {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .pricing__box {
+    width: 100%;
+  }
+}
+.content__text {
+  margin-top: 54px;
+  position: absolute;
+  bottom: 0;
+}
 
 .skills__bloc {
   margin-top: 50px;
@@ -409,6 +459,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
   padding: 3rem 0;
   border-top: 1px solid #c4c4c4;
 }
@@ -494,6 +545,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
   padding: 3rem 0;
   border-top: 1px solid #c4c4c4;
 }
@@ -574,55 +626,4 @@ a {
     width: 100%;
     margin: 0 auto;
   }
-}
-h1 {
-  font-size: 40px;
-  text-align: center;
-}
-
-p {
-  margin-top: 20px;
-  color: #736f6f;
-}
-
-.content__paragrf,
-.content__paragrf-two,
-.content__paragrf-tree {
-  display: flex;
-  gap: 10px;
-  width: 160px;
-  height: 40px;
-  align-items: center;
-  background: #eeeeee;
-  border-radius: 5px;
-  margin-top: 30px;
-}
-.content__paragrf h3,
-.content__paragrf-two h3,
-.content__paragrf-tree h3 {
-  margin-left: 8px;
-}
-.content__paragrf h5,
-.content__paragrf-two h5,
-.content__paragrf-tree h5 {
-  color: #736f6f;
-}
-
-.content {
-  width: 33%;
-  height: 300px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .content {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .content {
-    width: 100%;
-  }
-}
-.content__text {
-  margin-top: 54px;
 }/*# sourceMappingURL=main.css.map */
